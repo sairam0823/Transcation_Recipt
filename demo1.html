@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fintech UI</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="demo1.css">
+</head>
+<body>
+
+
+  <header class="navbar">
+    <div class="logo"> FintechApp</div>
+
+    <nav class="nav-links">
+      <a>Dashboard</a>
+      <a>Transactions</a>
+      <a>Cards</a>
+      <a>Settings</a>
+    </nav>
+
+    <div class="profile">
+  <svg viewBox="0 0 24 24">
+    <circle cx="12" cy="8" r="4" fill="#64748b"/>
+    <path d="M4 20c0-4 4-6 8-6s8 2 8 6" fill="#64748b"/>
+  </svg>
+</div>
+  </header>
+
+
+  <main class="container">
+    <div class="card">
+
+     
+      <div class="success-icon">
+        <svg viewBox="0 0 24 24">
+          <path d="M20 6L9 17l-5-5" stroke="white" stroke-width="2" fill="none"/>
+        </svg>
+      </div>
+
+      <h1>Transfer Sent Successfully!</h1>
+      <p class="subtitle">
+        Your payment has been processed and is on its way.
+      </p>
+
+  
+      <div class="amount-box">
+        <p class="label">AMOUNT SENT</p>
+        <h2>$1,250.00 <span>USD</span></h2>
+
+        <div class="details">
+          <div>
+            <span>To Recipient</span>
+            <strong>Alex Thompson</strong>
+          </div>
+          <div>
+            <span>Reference Number</span>
+            <strong>#TRF - 992837465</strong>
+          </div>
+          <div>
+            <span>Timestamp</span>
+            <strong>Oct 24, 2023, 14:30 PM</strong>
+          </div>
+          <div>
+            <span>Payment Method</span>
+            <strong>Main Wallet (**** 4291)</strong>
+          </div>
+        </div>
+      </div>
+
+   
+      <button class="primary-btn">Send Money Again</button>
+
+      <div class="secondary-buttons">
+        <button>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 16V4M12 16l-4-4M12 16l4-4M4 20h16" stroke="currentColor" stroke-width="2" fill="none"/>
+          </svg>
+          Receipt
+        </button>
+
+        <button>
+          <svg viewBox="0 0 24 24">
+            <path d="M4 12v-2a4 4 0 014-4h8a4 4 0 014 4v2M16 16l4-4-4-4M8 8l-4 4 4 4" stroke="currentColor" stroke-width="2" fill="none"/>
+          </svg>
+          Share
+        </button>
+      </div>
+
+      <a href="#" class="back-link"> Back to Dashboard</a>
+
+    </div>
+  </main>
+
+  <footer>
+    © 2023 FintechApp Inc. All transfers are subject to our Terms of Service.
+  </footer>
+
+</body>
+</html>
